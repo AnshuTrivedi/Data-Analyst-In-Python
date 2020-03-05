@@ -1,0 +1,45 @@
+
+1. The range
+   > we've focused entirely on summarizing distributions using the mean, the weighted mean, the median, and the mode.
+   > A=[4,4,4,4],B=[0,8,0,8] A have equal mean,mode and meadian and same for B with no mode.
+   > One intuitive way to measure the variability of a distribution is to find the difference between the maximum and the minimum value.
+     We call this measure of variability the range.
+2. The Average Distance
+   > The problem with the range is that it considers only two values in the distribution — the minimum and the maximum value
+   > The root of the problem is that the range considers only the two extreme values, and this makes it extremely sensitive to outliers
+      [1,1,1,1,1,1,1,21]
+   > To take into account each value when measuring variability we could:
+     Take a reference value, and measure the distance of each value in the distribution from that reference value.
+       We can take the mean of the distribution as a reference value.
+       Then, we measure the distance between each value in the distribution and the mean.
+     Find the mean of the distances.
+       We first need to sum up all the distances.
+       Then we need to divide the total by the number of distances.
+
+3. Mean Absolute Deviation
+   >  the total distance of the values that are above the mean is the same as the total distance of the values below the mean.It makes sum 0.
+   > To solve this problem, we can take the absolute value of each distance, and then sum up the absolute values.
+   > We call this measure of variability mean absolute distance. In statistical jargon, however, the distance of a value from the mean is called deviation.
+     So the mean absolute distance is more commonly known as mean absolute deviation or average absolute deviation.
+
+4. Variance
+  > In the previous screen we transformed the distances to absolute values to avoid having the sum of distances amount to 0 in the numerator. 
+    Another way to solve this problem is to square each distance and then find the mean of all the squared distances:
+  > This measure of variability is sometimes called mean squared distance or mean squared deviation (remember that "distance" and 
+    "deviation" are synonymous in this context). However, it's more commonly known as variance.
+  > Squaring the distances or taking their absolute values ensure that we get a variability value that is greater than 0 for 
+    all distributions that show some variability. 
+    Notice, however, that variance and mean absolute deviation will still be 0 for distributions that show no variability.
+    D=[2,2,2] variance=0 , mean absolute deviation=0
+  
+5. standard Deviation
+   > This high variability value is the direct result of the squaring process, which makes most distances much bigger than they actually are.
+     D=[1,1,1,1,1,1,1,1,1,21] variance=36 which is very high
+   > Squaring the distances also has the drawback of squaring the units of measuremen
+   > To solve this problem and also reduce the variability value, we can take the square root of variance.
+   > The square root of variance is called standard deviation 
+
+6. Average variability Around the Mean
+   > 
+
+
