@@ -1,0 +1,33 @@
+
+1. Introduction
+  > A lot of data aren't accessible through data sets or APIs. They may exist on the Internet as Web pages, though. 
+    One way to access the data without waiting for the provider to create an API is to use a technique called Web scraping.
+  > Before we can do Web scraping, we need to understand the structure of the Web page we're working with, 
+    then find a way to extract parts of that structure in a sensible way.
+  > We'll use the requests library heavily as we learn about Web scraping. This library enables us to download a Web page.
+    We'll also use the beautifulsoup library to extract the relevant parts of the Web page.
+
+2. WEb Page Structure
+  > Web pages use HyperText Markup Language (HTML). HTML isn't a programming language like Python. 
+   It's a markup language with its own syntax and rules
+
+3. Retrieving elements from a page
+   > We can think of HTML documents as "trees," and the nested tags as "branches" (similar to a family tree). BeautifulSoup works the same way.
+   
+4. Using Find_all
+  > his method will find all occurrences of a tag in the current element, and return a list.
+  > eg-
+    parser = BeautifulSoup(content, 'html.parser')
+    # Get a list of all occurrences of the body tag in the element.
+    body = parser.find_all("body")
+    # Get the paragraph tag.
+    p = body[0].find_all("p")
+    # Get the text.
+    print(p[0].text)
+    head = parser.find_all("head")
+    title = head[0].find_all("title")
+    title_text = title[0].text
+
+5. Element IDs
+   > HTML allows elements to have IDs. Because they are unique, we can use an ID to refer to a specific element.
+   > 
