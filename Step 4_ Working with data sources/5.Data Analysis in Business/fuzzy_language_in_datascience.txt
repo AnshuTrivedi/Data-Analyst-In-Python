@@ -1,0 +1,17 @@
+
+1.> Request made by managers may be fuzzy due to lack of clarity in language such as best customer section , 
+    here best in what sense is not told so it become fuzzy
+
+  > When someone makes a request, the outcome of that request is not usually the end goal, but rather a means to an end. 
+    
+  > It is a good idea to brainstorm possible ways of reaching the goal with whoever makes the request 
+    and with people within the organization who may have a more holistic view of the business. 
+  
+  >  Customer churn is when a customer ceases to be a customer.In the case of subscription-based businesses, 
+     customer churn happens when a customer unsubscribes.
+  
+  > It is a common situation in data science that when we don't know the truth — either because
+    it's not possible to measure it or we can't afford to — we use sufficiently close approximations to the truth. These are called proxies. 
+    When a request is urgent, it is common to use proxies in place of information that would take much longer to get.
+
+  > 
