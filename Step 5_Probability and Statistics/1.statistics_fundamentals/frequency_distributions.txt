@@ -60,4 +60,19 @@
 10. Readability for grouped frequncy Tables
     > We start with creating the intervals using the pd.interval_range() function:
     > eg-intervals = pd.interval_range(start = 0, end = 600, freq = 100)
+
+11. Frequency Tables and Continous Variables
+    > When we build frequency tables for continuous variables, we need to take into account that the values are intervals.
+      wnba['Height'].value_counts()[175] outpust 16
+      This doesn't mean that there are 16 players that are all exactly 175 cm tall. It rather means that there are 16 players with 
+      a height that's somewhere between 174.5 cm and 175.5 cm.
+    > Continuous variables affect as well the way we read percentiles.
+      wnba['Height'].describe().iloc[3:]
+      min    165.0
+      25%    176.5
+      50%    185.0
+     This means that 50% of the values are less than or equal to 185.5 cm (the upper limit of 185 cm), not equal to 185 cm.
+
+ Frequency tables allow us to transform large and incomprehensible amounts of data to a format we can understand.
+      
       
