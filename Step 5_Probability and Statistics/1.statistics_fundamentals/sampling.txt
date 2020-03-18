@@ -56,4 +56,42 @@ In this first mission, our focus will be on the details around getting data for 
    > This sampling method is called stratified sampling, and each stratified group is also known as a stratum.
 
 8. Proportional Stratified Sampling
-   > 
+   > In case of overestimation or underestimation of population mean use 
+     stratified sampling while being mindful of the proportions in the population.
+
+9. Choosing the Right Strata
+   > Here are a few guidelines for choosing good strata:
+    1. Minimize the variability within each stratum.
+      For instance, avoid having in the same stratum a player that has scored 10 points and a player that has scored 500. 
+      If the variability is high, it might be a sign that you either need a more granular stratification (need more strata), or 
+      you need to change the criterion of stratification (an example of criterion is minutes played).
+   2. Maximize the variability between strata.
+      Good strata are different from one another. If you have strata that are similar to one another with respect to what you want to measure,
+      you might need a more granular stratification,or to change the stratification criterion. In the previous screen,
+      stratifying the data by games played resulted in strata that 
+      weren't too different from each other with respect to the distribution of the total points. 
+      We managed to increase the variability between strata by changing the criterion of stratification to minutes played.
+   3. The stratification criterion should be strongly correlated with the property you're trying to measure.
+      For instance, the column describing minutes played (the criterion) should be strongly correlated with the number of 
+      total points (property we want to measure). 
+
+10. Cluster Sampling
+    > When data is scattered accross different sources and to be collected for ananlysis this method of sampling is suitable
+    > List all the data sources you can find, and then randomly pick only a few of them to collect data from. 
+     Then you can sample individually each of the sources you've randomly picked. This sampling method is called cluster sampling, 
+     and each of the individual data sources is called a cluster.
+    > It's actually possible to use different sampling methods for different clusters. 
+     For instance, we can use stratified sampling on the first two clusters, and simple random sampling on the other two.
+
+11. Sampling in Data Science Practice
+    > It could be that you need to collect data from an API that either has a usage limit, or is not free. 
+      In this case, you are more or less forced to sample. Knowing how and what to sample can be of great use.
+    > Another common use case of sampling is when the data is scattered across different locations (different websites, 
+      different databases, different companies, etc.).Cluster sampling would be a great choice in such a scenario.
+
+12. Descriptive and Inferential Statistics
+    > When we describe a sample or a population (by measuring averages, proportions, and other metrics; 
+      by visualizing properties of the data through graphs; etc.), we do descriptive statistics.
+    > When we try to use a sample to draw conclusions about a population, we do inferential statistics 
+     (we infer information from the sample about the population).
+
