@@ -40,6 +40,46 @@
    > The square root of variance is called standard deviation 
 
 6. Average variability Around the Mean
-   > 
+   > Standard deviation tells us how much the values in a distribution vary (on average) around the mean of that distribution.
+   > The standard deviation doesn't set boundaries for the values in a distribution
+ 
+
+7. Measure of spread
+  > Another way to understand standard deviation is as a measure of spread in a distribution — 
+    values in a distribution can be more or less spread
+  
+8. The Sample Standard Deviation
+   > In practice, mu is almost never known, and we can't find it from our sample either, but we can estimate mu using the sample mean x bar.
+   >  One way we can check this is by sampling repeatedly a known population and see how the sample standard deviations 
+      compare on average to the population standard deviation.
+   
+9. Bessels's Correction
+   > Some sample standard deviations are lower than the population standard deviation, some are greater, 
+     some may even be equal to the population standard deviation,but on average the sample standard deviation is 
+     lower than the population standard deviation.
+   > We can get a good intuition for why the sample standard deviation underestimates if we think in terms of distribution spread. 
+    When we sample a population, it's generally more likely to get a sample with a spread that's lower than the population's spread. 
+    This generally translates to a lower standard deviation than in the population.
+   > To correct the underestimation problem, we can try to slightly modify the sample standard deviation formula to return higher values
+   > small correction we added to the sample standard deviation (dividing by n-1 instead of n) is called Bessel's correction.
+
+10. Standard Notation
+    > We could decrease the denominator more (dividing by  maybe) to try improving the correction. 
+     However, we need a single mathematical definition for the sample standard deviation, and we have to choose between n,n-1,n-2, etc.
+     Remember that in practice we don't know the population standard deviation, so we can't tell which correction would work best 
+     for each sample standard deviation.
+    > Statisticians agree that n-1 is the best choice for the sample standard deviation formula
+    > The main takeaway is that we need to use the  and  formulae (with Bessel's correction) for samples. 
+      For populations, we can use the  or  formulae (without Bessel's correction).
+
+11. Sample Variance — Unbiased Estimator
+   > argument supporting using n-1 comes from the fact that the sample variance  (which uses ) is an unbiased estimator for the population
+     variance . Since standard deviation is just the square root of variance, it makes sense to use  as well 
+     (although standard deviation is not an unbiased estimator)
+   > we call a statistic an unbiased estimator when that statistic is equal on average to the parameter it estimates.
+   > The sample variance  is an unbiased estimator for the population variance  only when we sample with replacement
 
 
+In this mission, we learned how to measure the variability of a distribution using the range, the mean absolute deviation, 
+the variance, and the standard deviation. These metrics are ideal for measuring the variability of distributions whose values
+are measured on an interval or ratio scale.
