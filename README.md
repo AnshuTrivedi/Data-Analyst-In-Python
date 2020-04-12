@@ -1,36 +1,71 @@
 # Data-Analyst-In-Python
 
 ## Inroduction
-I have completed Data Analytics full track from [Dataquest]().This repository contains all projects,datsets used in course and 
+I have completed Data Analytics full track from [Dataquest]() with 20 real world projects.This repository contains all projects,datsets used in course and 
 notes.Step_1 to step_6 is order of course track completeion.
 
 ## Tools Used
-I worked on Jupyter Notebooks and Notepad app for course notes on Windows laptop.
-You can install Jupyter Notebook from [here]()
+I worked on Jupyter Notebooks and Notepad app for course notes on Windows laptop.</br>
+You can install Jupyter Notebook from [here]()</br>
 Notepad app already avialable in Windows ,or you can use any app for making notes.
 
 ## Projects
-Repo have separate folder for projects where i have saved projects according to course and step track.
-[Project_1:]()
-[Project_2:]()
-[Project_3:]()
-[Project_4:]()
-[Project_5:]()
-[Project_6:]()
-[Project_7:]()
+Repo have separate folder for projects where i have saved projects according to course and step track.</br>
+
+### Projects completed in Step_1
+[Project_1:]()</br>
+[Project_2:]()</br>
+[Project_3:]()</br>
+
+Total Projects:3
+
+### Projects completed in step_2
+[Project_4:]()</br>
+[Project_5:]()</br>
+[Project_6:]()</br>
+[Project_7:]()</br>
+[Project_8:]()</br>
+[Project_9:]()</br>
+
+Total Projects: 6
+
+### Projects in Step_3
+Step_3 have no projects.
+
+## Projects completed in Step_4
+[Project_10:]()</br>
+[Project_11:]()</br>
+[Project_12:]()</br>
+[Project_13:]()</br>
+[Project_14:]()</br>
+
+Total Projects: 5
+
+### Projects completed in Step_5
+[Project_15:]()</br>
+[Project_16:]()</br>
+[Project_17:]()<br>
+[Project_18:]()</br>
+[Project_19:]()</br>
+Total Projects: 5
+### Projects completed in Step_6
+[Project_20:]()</br>
+
+Total projects: 1
 
 ## Datasets
 This folder contains datasets used in courses for data analysis practice.
-[Datasets used in step_1]()
-[Datasets used in step_2]()
-[Datasets used in step_3]()
-[Datasets used in step_4]()
-[Datasets used in step_5]()
-[Datasets used in step_6]()
+[Datasets used in step_1]()</br>
+[Datasets used in step_2]()</br>
+[Datasets in step_3]()</br>
+Step_3 have no data sets to download.</br>
+[Datasets used in step_4]()</br>
+[Datasets used in step_5]()</br>
+[Datasets used in step_6]()</br>
 
 ## Notes 
-Notes of all courses are avialbale either in text or jupyter notebook format.
-Takeaway files are in pdf format which are very short and concise.
+Notes of all courses are avialbale either in text or jupyter notebook format.</br>
+Takeaway files are in pdf format which are very short and concise notes.
 
 
 ## Recommendation
